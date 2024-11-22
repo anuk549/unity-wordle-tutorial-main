@@ -18,4 +18,8 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("Wordle");
     }
+    public void LoadAiScene()
+    {
+        SceneManager.LoadScene("ai");
+    }
 }
