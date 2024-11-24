@@ -3,6 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+     public void LoadTreeScene()
+    {
+        SceneManager.LoadScene("1. Intro");
+    }
+      public void LoadMenuScene()
+    {
+        SceneManager.LoadScene("Menu 3D");
+    }
     public void LoadVideoScene()
     {
         SceneManager.LoadScene("1");
