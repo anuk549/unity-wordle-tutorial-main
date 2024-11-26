@@ -3,10 +3,22 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    public void LoadVideoScene()
+public void LoadVedioScene()
     {
-        SceneManager.LoadScene("1");
+        SceneManager.LoadScene("tracing");
     }
+     public void LoadTreeScene()
+    {
+        SceneManager.LoadScene("1. Intro");
+    }
+      public void LoadMenuScene()
+    {
+        SceneManager.LoadScene("Menu 3D");
+    }
+    // public void LoadVideoScene()
+    // {
+    //     SceneManager.LoadScene("1");
+    // }
     // Load Game scene
     public void LoadGameScene()
     {
