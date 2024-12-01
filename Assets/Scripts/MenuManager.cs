@@ -25,10 +25,10 @@ public void LoadVedioScene()
         SceneManager.LoadScene("Game");
     }
 
-    // Load Wordle scene
-    public void LoadWordleScene()
+    // Load TracingMain scene
+    public void LoadTracingMainScene()
     {
-        SceneManager.LoadScene("Wordle");
+        SceneManager.LoadScene("TracingMain");
     }
     public void LoadAiScene()
     {
