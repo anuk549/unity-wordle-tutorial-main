@@ -124,7 +124,7 @@ public class Timer : MonoBehaviour
 				string strNumber = "";
 				if (number < 10) {
 						strNumber += "0";
-				}
+				} 
 				strNumber += number;
 		
 				return strNumber;
